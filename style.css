@@ -1,0 +1,46 @@
+body   
+{  
+height: 130vh;  
+margin-top: 90px;  
+background-color: #F4EBD0;
+background-size cover;  
+font-family: "Lucida Console";  
+}  
+
+header {  
+background-color:#D6AD60;
+
+
+
+
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 20px;  
+height: 50px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 20px 0 black;  
+}  
+header * {  
+display: inline-block;  
+}  
+header li {  
+margin: 40px;  
+}  
+header li a {  
+color:white ;
+text-decoration: none;  
+}  
+
+
+h1 {
+font-size: 80px;
+font-family: "Courier New";
+}
+
+
+h1 {
+color: black;
+}
+
