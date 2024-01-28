@@ -1,133 +1,50 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-<title> </title>
-<link rel="stylesheet" href="style.css">
-<a name="Top_Page"> 
-</a>
-
-
-<header>
-
-
-<nav>  
-<nav>
-<img src="logo.jpeg" width="30px" height="30px"  id=logo alt="Logo image" style="margin-left: 50px;">
-<ul>  
-<li> <a href="index.html"> Home </a>  
-</li>  
-<li> <a href="corporate_video.html"> Corporate Video</a>  
-</li>  
-<li> <a href="cloth.html"> Type of Cloth </a>  
-</li>  
-<li> <a href="fun_facts.html"> Fun Facts </a>  
-</li>  
-<li> <a href="organizational_chart.html"> Organizational Chart </a>  
-</li>  
-<li> <a href="feedback.html"> Feedback </a>  
-</li>  
-</ul>  
-</nav>  
-</header> 
+<title>Home</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>About Me</title>
 </head>
-<body >
+<body>
 
-<marquee><h1> WELCOME ! </h1></marquee>
+
+    <!-- Header Section -->
+    <header>
+        <h1>HOME</h1>
+  <p>WELCOME TO MY CHANNEL</p>
+    </header>
 <br>
 <br>
 <br>
-
-<!----SCRIPT--->
-<!---JAVA APPLET---> 
-
-<!---to call the css---> 
-
-   <center> <div id="clock">05:28:58PM</div> </center>
-
-<!---to link to the current time---> 
- 
-   <script src="./home_files/clock2.js.download"></script>
-
-<br><br><br><br>
-<script> 
- setInterval(showTime, 1000);
-function showTime() {
-  let time = new Date();
-  let hour = time.getHours();
-  let min = time.getMinutes();
-  let sec = time.getSeconds();
-  am_pm = "AM";
-
-  if (hour > 12) {
-    hour -= 12;
-    am_pm = "PM";
-  }
-  if (hour == 0) {
-    hr = 12;
-    am_pm = "AM";
-  }
-
-  hour = hour < 10 ? "0" + hour : hour;
-  min = min < 10 ? "0" + min : min;
-  sec = sec < 10 ? "0" + sec : sec;
-
-  let currentTime = hour + ":"
-      + min + ":" + sec + am_pm;
-
-  document.getElementById("clock")
-      .innerHTML = currentTime;
-}
-showTime();
-
-</script>
-<center>
-<video  width="900" height="800" autoplay muted loop >
-<source src="hoodie.mp4" type="video/mp4">
-</video>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<a href="#Top_Page"> <img src="button.jpeg" width="50px" align="right">
-</a>
-
-
-
-<br><br><br>
-<hr style="height:15px;border-width:0;color:black;background-color:black">
-<footer> 
- 
-  <p><center><b>Copyright &copy; P.Dini </p><center><b>
-<a href="https://www.instagram.com/jnnhhere_?igsh=dTV1emtycXlqa3I1"><img src="instagram.jpeg" width= "30px"></a> 
-<a href=https://www.tiktok.com/@hye_jy?_t=8ip4NFCO8T1&_r=1><img src="tiktok.jpeg" width= "30px"></a>
-<a href=https://www.facebook.com/profile.php?id=100073650872202&mibextid=ZbWKwL><img src="facebook.jpeg" width= "30px"></a>
-<a href=https://x.com/NurulJnnh10?t=-4NfGIQ03yyhSpWrYo5aeQ&s=09><img src="twitter.jpeg" width= "30px"></a>
-<hr style="height:15px;border-width:0;color:black;background-color:black">
+<a href="index.html">HOME</a>
+<a href="aboutme.html">ABOUT ME</a>
+<a href="family.html">FAMILY</a>
+<a href="education.html">EDUCATION</a>
+<a href="favourite.html">FAVOURITE</a>
+<a href="experience.html">EXPERIENCE</a>
+<a href="pet.html">PET</a>
 <br>
+<br>
+<br>
+ <!-- Welcome Section -->
+    <section id="about">
+        <h2>Welcome</h2>
+        <p>Welcome to my personal website! I am Sharul Alif bin Sharullain.</p>
+<p>This website is about me and only me. Everything about me is in here.</p>
+<p>If you want to know me. COME!!!</p> 
+    </section>
+
+<img src="wp6098506.jpg" width="95%" height="50%" border="5" vspace="10" hspace="10" align="center">
+
+  <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: sharul.alif@gmail.com</p>
+        <p>LinkedIn: linkedin.com/in/sharul</p>
+        <!-- Add more contact information as needed -->
+    </section>
 </body>
 </html>
